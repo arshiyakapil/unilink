@@ -41,6 +41,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Dependency folders
 node_modules/
-.env
+.next/
 dist/
+build/
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
